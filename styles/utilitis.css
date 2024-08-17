@@ -3,6 +3,10 @@ h1 {
     letter-spacing: .0106rem;
 }
 
+span {
+    display: block;
+}
+
 header p {
     margin-top: 1rem;
     line-height: 1.5;
