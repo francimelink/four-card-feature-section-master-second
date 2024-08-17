@@ -1,0 +1,52 @@
+h1 {
+    font-size: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
+    letter-spacing: .0106rem;
+}
+
+header p {
+    margin-top: 1rem;
+    line-height: 1.5;
+    letter-spacing: .0063rem;
+}
+
+article {
+    padding: 1.75rem;
+    position: relative;
+    color: #4D4F62;
+    min-height: 13.875rem;
+    background-color: #fff;
+    box-shadow: 0.3em 0.3em 1em #979797;
+    border-radius: .3125rem;
+    border-top: .1875rem solid;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+p {
+    line-height: 1.4375rem;
+    font-size: clamp(0.9375rem, 0.9155rem + 0.0939vw, 1rem);
+    letter-spacing: .0056rem;
+    opacity: 50%;
+}
+
+img {
+    position: absolute;
+    bottom: 1.75rem;
+    right: 1.75rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    article {
+        padding: 2rem;
+        height: 15.625rem;
+    }
+
+    img {
+        height: 4rem;
+        width: 4rem;
+    }
+}

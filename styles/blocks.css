@@ -1,0 +1,19 @@
+.supervisor {
+    border-top-color: var(--primary-cyan);
+    grid-area: supervisor;
+}
+
+.builder {
+    border-top-color: var(--primary-red);
+    grid-area: builder;
+}
+
+.karma {
+    border-top-color: var(--primary-orange);
+    grid-area: karma;
+}
+
+.calculator {
+    border-top-color: var(--primary-blue);
+    grid-area: calculator;
+}
